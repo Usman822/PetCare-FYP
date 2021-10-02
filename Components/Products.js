@@ -1,0 +1,43 @@
+const Products = [
+  {
+    id: "1",
+    title: "Cat Food",
+    company: "Food Maker",
+    expirydate: "2/2/2022",
+    picture: require("../assets/food.png"),
+    cost: 780,
+    quantity: 1,
+    selected: false,
+  },
+  {
+    id: "2",
+    title: "German Food",
+    company: "Bird Food Maker",
+    expirydate: "2/2/2023",
+    picture: require("../assets/pet1.png"),
+    cost: 780,
+    quantity: 1,
+    selected: false,
+  },
+  {
+    id: "3",
+    title: "Good Food",
+    company: "Bird Food Maker",
+    expirydate: "2/2/2023",
+    picture: require("../assets/pet2.png"),
+    cost: 780,
+    quantity: 1,
+    selected: false,
+  },
+  {
+    id: "4",
+    title: " Food",
+    company: "Bird Food Maker",
+    expirydate: "2/2/2023",
+    picture: require("../assets/pet3.png"),
+    cost: 780,
+    quantity: 1,
+    selected: false,
+  },
+];
+export default Products;
